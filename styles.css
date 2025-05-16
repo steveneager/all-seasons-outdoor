@@ -86,3 +86,86 @@ footer {
   width: 180px;
   height: auto;
 }
+
+.contact {
+  padding: 2rem;
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: 0 auto 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.contact-form label {
+  font-weight: bold;
+}
+
+.contact-info {
+  text-align: center;
+  font-size: 1rem;
+}
+
+.about {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+.about ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about li {
+  margin: 0.5rem 0;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .header-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0;
+  }
+
+  .service-list {
+    grid-template-columns: 1fr; /* Stack vertically */
+  }
+
+  .logo {
+    width: 120px; /* Slightly smaller on mobile */
+    margin-bottom: 0.5rem;
+  }
+
+  .contact-form {
+    padding: 0 1rem;
+  }
+
+  .about, .services, .contact {
+    padding: 1rem;
+  }
+
+  .btn {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1.1rem;
+  }
+}
