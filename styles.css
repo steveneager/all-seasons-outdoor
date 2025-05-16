@@ -8,8 +8,6 @@ body {
 }
 
 header {
-  background-color: #4CAF50;
-  color: white;
   padding: 1rem;
   text-align: center;
 }
@@ -45,6 +43,7 @@ nav a {
 
 .service {
   background-color: #f9f9f9;
+  color: black;
   padding: 1rem;
   border: 1px solid #ddd;
   border-radius: 5px;
@@ -54,6 +53,7 @@ nav a {
   text-align: center;
   padding: 2rem;
   background-color: #d1f0d1;
+  color: black;
 }
 
 .btn {
@@ -83,6 +83,6 @@ footer {
 }
 
 .logo {
-  width: 80px;
+  width: 180px;
   height: auto;
 }
