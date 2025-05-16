@@ -27,9 +27,11 @@ nav a {
 }
 
 .hero {
-  background: #eef9f1;
-  padding: 2rem;
+  background: url('images/background-optimized.webp') center/cover no-repeat;
+  color: white;
+  padding: 4rem 2rem;
   text-align: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
 }
 
 .services {
@@ -73,3 +75,9 @@ footer {
   margin-top: 2rem;
 }
 
+.logo {
+  width: 100px;
+  height: auto;
+  display: block;
+  margin: 0 auto 0.5rem;
+}
